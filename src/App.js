@@ -1,30 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Bgali} from './Bgali';
-import Image from './image';
+import React from "react";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <div><Bgali /><Image />
-        <Image />
-        <Image /></div>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Web page created by B Gali</h1>
       </header>
+      <body className="App-body">
+        <article>
+          <h2>
+            Do you like the background image? It was taken by the great
+            Photographer - Bhargava Gali
+          </h2>
+          <h3>Location- Brighton Beach, Victoria</h3>
+          <h5>
+            Feel free to ask for an original uncompressed image if you want ;)
+          </h5>
+        </article>
+      </body>
+
+      <footer className="App-footer">
+        <a href="https://bhargavagali.site">My Other Website</a>
+      </footer>
     </div>
   );
 }
